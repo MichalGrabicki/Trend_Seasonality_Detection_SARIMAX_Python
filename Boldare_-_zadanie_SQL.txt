@@ -1,0 +1,7 @@
+SELECT
+    buyer_id,
+    AVG(transaction_value) average_transaction_value
+FROM
+    boldare
+    GROUP BY 
+    buyer_id;
